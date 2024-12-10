@@ -91,3 +91,16 @@
   margin-bottom: 1.5rem;
   text-align: center;
 }
+@media (max-width: 600px) {
+  .container {
+    padding: 1rem;
+  }
+
+  .search-replace-controls {
+    grid-template-columns: 1fr;
+  }
+
+  .action-buttons {
+    flex-direction: column;
+  }
+}
